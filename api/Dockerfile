@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN yarn install
 
 EXPOSE 4000
 # required for docker desktop port mapping
